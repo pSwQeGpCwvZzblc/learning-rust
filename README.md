@@ -1,5 +1,6 @@
-To compile
+To compile and execute
 
 ```sh
-rustc main.rs
+./rust_make main.rs
+./main
 ```

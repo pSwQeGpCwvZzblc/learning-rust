@@ -1,0 +1,3 @@
+# shell script to compile rust, but shows the compiles errors from top to bottom using pager
+clear
+rustc $* --color always 2>&1 | more
